@@ -1,1 +1,13 @@
-
+{
+  "name": "asobiba",
+  "compatibility_date": "2026-08-25",
+  "main": "worker.js",
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/kv"]
+  },
+  "kv_namespaces": [
+    { "binding": "ASOBIBA_KV", "id": "5eafcfaa56e84111b89544421624a9c5" }
+  ]
+}
